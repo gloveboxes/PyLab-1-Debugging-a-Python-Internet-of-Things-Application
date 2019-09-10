@@ -182,7 +182,6 @@ You will be prompted for:
 4. Check the Remote SSH has connected.
 
     It will take a moment to connect, then the SSH Status in the bottom lefthand corner of Visual Studio Code will change to **>< SSH:pylab-devnn**.  Where devnn is your Raspberry Pi Login name.
-
     <br/>
 
     ![](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-remote-ssh-connected.png)
