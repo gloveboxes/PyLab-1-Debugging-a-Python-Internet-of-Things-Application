@@ -1,4 +1,4 @@
-# PyLab 1: Debugging a Python Internet of Things Application
+# PyLab 1: Raspberry Pi, Debugging a Python Internet of Things Application
 
 Follow me on Twitter [@dglover](https://twitter.com/dglover)
 
@@ -9,13 +9,13 @@ Follow me on Twitter [@dglover](https://twitter.com/dglover)
 You may find it easier to download and follow the PDF version of the [Debugging Raspberry Pi Internet of Things Flask App](https://github.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/blob/master/README.pdf) hands-on lab guide.
 
 |Author|[Dave Glover](https://developer.microsoft.com/en-us/advocates/dave-glover?WT.mc_id=pycon-blog-dglover), Microsoft Cloud Developer Advocate |
-|----|---|
+|:--- |:--- |
 |Platforms | Linux, macOS, Windows, Raspbian Buster|
+|Services | [Azure IoT Central](https://docs.microsoft.com/en-us/azure/iot-central/?WT.mc_id=pycon-blog-dglover) |
 |Tools| [Visual Studio Code](https://code.visualstudio.com?WT.mc_id=pycon-blog-dglover)|
-|Hardware | [Raspberry Pi 4. 4GB](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) model required for 20 Users. Raspberry Pi [Sense HAT](https://www.raspberrypi.org/products/sense-hat/), Optional: Raspberry Pi [case](https://shop.pimoroni.com/products/pibow-coupe-4?variant=29210100138067), [active cooling fan](https://shop.pimoroni.com/products/fan-shim)
-|**USB3 SSD Drive**| To support up to 20 users per Raspberry Pi you need a **fast** USB3 SSD Drive to run Raspbian Buster Linux on. A 120 USB3 SSD drive will be more than sufficient. These are readily available from online stores.
+|Hardware | [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/), [Raspberry Pi Sense HAT](https://www.raspberrypi.org/products/sense-hat/)|
 |Language| Python|
-|Date|As of September, 2019|
+|Date|September, 2019|
 
 ## Introduction
 
@@ -182,9 +182,9 @@ You will be prompted for:
     ![open the ssh project](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-open-ssh-connection.png)
 
     <br>
-4. Check the Remote SSH has connected. 
+4. Check the Remote SSH has connected.
 
-    It will take a moment to connect, then the SSH Status in the bottom left hand corner of Visual Studio Code will change to **>< SSH:pylab-devnn**.  Where devnn is your Raspberry Pi Login in name.
+    It will take a moment to connect, then the SSH Status in the bottom lefthand corner of Visual Studio Code will change to **>< SSH:pylab-devnn**.  Where devnn is your Raspberry Pi Login name.
 
     <br>
 
