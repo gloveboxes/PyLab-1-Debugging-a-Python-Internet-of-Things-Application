@@ -93,7 +93,7 @@ You will be prompted for:
 - The Raspberry Pi Network IP Address,
 - The Raspberry Pi login name and password
 
-1. From **Windows File Explorer**, open **f<span>tp://\<Raspberry Pi Address>**
+1. From **Windows File Explorer**, open **ftp://\<Raspberry Pi Address>**
     <br/>
 
     ![](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/windows-file-manager-address-bar.png)
@@ -174,7 +174,6 @@ You will be prompted for:
 2. Press **F1** to open the Command Palette, type **ssh connect** and select **Remote-SSH: Connect to Host**
 
 3. Select the **pylab-devnn** configuration
-
     <br/>
 
     ![open the ssh project](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-open-ssh-connection.png)
@@ -218,7 +217,7 @@ In this lab, we are going to start and debug a [Flask](https://www.fullstackpyth
     ![](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-open-folder-Lab.png)
     <br/>
 4. Click **OK** to Open the directory
-5. From the **Explorer** bar, open the **app<span>.py** file and review the contents
+5. From the **Explorer** bar, open the **app.py** file and review the contents
     <br/>
 
     ![](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-open-appy-py.png)
@@ -275,14 +274,13 @@ def show_telemetry():
 3. This will launch your desktop Web Browser.
 
     -  The Flask app will read the temperature, air pressure, humidity from the **sensor** attached the Raspberry Pi and display the results in your web browser.
-
     <br/>
 
     ![Flask Web Page](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/flask-web-page.png)
 
 ## Debugging with Breakpoints
 
-1. Switch back to Visual Studio Code and ensure the **app<span>.py** file is open.
+1. Switch back to Visual Studio Code and ensure the **app.py** file is open.
 2. Put the cursor on the line that reads **now = datetime.now()**
 3. Press **F9** to set a breakpoint. A red dot will appear on the line to indicate a breakpoint has been set.
     <br/>
@@ -318,7 +316,6 @@ The debugging toolbar (shown below) will appear in Visual Studio Code. It has th
 3. You will notice that Python variables are displayed in the **Variables Window**.
 
     If the Variable Window is not visible click **Debug** in the activity bar.
-
     <br/>
 
     ![](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-activity-bar-debug.png)
@@ -354,7 +351,7 @@ The debugging toolbar (shown below) will appear in Visual Studio Code. It has th
 Try setting a **conditional** breakpoint
 
 1. Clear the existing breakpoints. From the main menu select **Debug** > **Remove all breakpoints**.
-2. Ensure the **app<span>.py** file open.
+2. Ensure the **app.py** file open.
 3. **Right mouse click** directly in the margin to the **left** of the line number **22**.
     <br/>
 
