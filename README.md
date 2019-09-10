@@ -99,7 +99,6 @@ You will be prompted for:
     ![](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/windows-file-manager-address-bar.png)
 
     <br/>
-
 2. Copy the **scripts** directory to your **desktop**
     <br/>
 
