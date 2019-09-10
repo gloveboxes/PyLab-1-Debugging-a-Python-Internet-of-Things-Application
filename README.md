@@ -201,7 +201,7 @@ ext install ms-python.python
 
 See the [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=pycon-blog-dglover) page for information about using the extension. -->
 
-## Open Lab 1 SSH Debug Project
+## Open PyLab 1 Python Debug Project
 
 ### Python Flask Web Apps
 
