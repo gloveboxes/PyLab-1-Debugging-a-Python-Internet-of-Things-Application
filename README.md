@@ -216,7 +216,7 @@ In this lab, we are going to start and debug a [Flask](https://www.fullstackpyth
 3. Next select, the **PyLab-1-Python-Debug** directory
     <br/>
 
-    ![](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-open-folder-Lab1.png)
+    ![](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-open-folder-Lab.png)
     <br/>
 4. Click **OK** to Open the directory
 5. From the **Explorer** bar, open the **app<span>.py** file and review the contents
