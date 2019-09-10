@@ -94,7 +94,6 @@ You will be prompted for:
 - The Raspberry Pi login name and password
 
 1. From **Windows File Explorer**, open **f<span>tp://\<Raspberry Pi Address>**
-
     <br/>
 
     ![](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/windows-file-manager-address-bar.png)
