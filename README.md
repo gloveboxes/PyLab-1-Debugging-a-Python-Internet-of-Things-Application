@@ -213,7 +213,7 @@ In this lab, we are going to start and debug a [Flask](https://www.fullstackpyth
 
     ![](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-open-folder-PyCon.png)
     <br/>
-3. Next select, the **Lab1-ssh-debug** directory
+3. Next select, the **PyLab-1-Python-Debug** directory
     <br/>
 
     ![](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-open-folder-Lab1.png)
