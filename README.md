@@ -226,7 +226,7 @@ In this lab, we are going to start and debug a [Flask](https://www.fullstackpyth
 
 Take a moment to review the Python Flask web app.
 
-**app<spam>.py**
+**app<span>.py**
 
 ```python
 from flask import Flask, abort, render_template
