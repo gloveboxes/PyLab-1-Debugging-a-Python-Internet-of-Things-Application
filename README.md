@@ -6,7 +6,7 @@ Follow me on Twitter [@dglover](https://twitter.com/dglover)
 
 ## PDF Lab Guide
 
-You may find it easier to download and follow the PDF version of the [Debugging Raspberry Pi Internet of Things Flask App](https://github.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/blob/master/README.pdf) hands-on lab guide.
+You may find it easier to download and follow the PDF version of the [Debugging Raspberry Pi Internet of Things Flask App](https://github.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/blob/master/README.pdf) hands-on lab guide, or the [GitHub Pages version](https://gloveboxes.github.io/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/)
 
 |Author|[Dave Glover](https://developer.microsoft.com/en-us/advocates/dave-glover?WT.mc_id=pycon-blog-dglover), Microsoft Cloud Developer Advocate |
 |:--- |:--- |
@@ -102,7 +102,6 @@ You will be prompted for:
     <br/>
 
 2. Copy the **scripts** directory to your **desktop**
-
     <br/>
 
     ![Windows File Manager](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/windows-file-manager.png)
@@ -211,22 +210,25 @@ In this lab, we are going to start and debug a [Flask](https://www.fullstackpyth
 1. From Visual Studio Code main menu: **File** > **Open Folder**
 2. Select the **PyLab** directory
     <br/>
+
     ![](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-open-folder-PyCon.png)
     <br/>
 3. Next select, the **Lab1-ssh-debug** directory
     <br/>
+
     ![](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-open-folder-Lab1.png)
     <br/>
 4. Click **OK** to Open the directory
 5. From the **Explorer** bar, open the **app<span>.py** file and review the contents
     <br/>
+
     ![](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-open-appy-py.png)
 
 <br/>
 
 Take a moment to review the Python Flask web app.
 
-**app<span>.py**
+#### app<span/>.py
 
 ```python
 from flask import Flask, abort, render_template
@@ -267,6 +269,7 @@ def show_telemetry():
 1. Press **F5** to start the Python Flask app.
 2. From the Visual Studio Code **Terminal Window**, click the **running on http://...** web link.
     <br/>
+
     ![Open web browser from VS Code](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-start-web-browser.png)
 
     <br/>
@@ -284,11 +287,14 @@ def show_telemetry():
 2. Put the cursor on the line that reads **now = datetime.now()**
 3. Press **F9** to set a breakpoint. A red dot will appear on the line to indicate a breakpoint has been set.
     <br/>
+
     ![Start the flask web application](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-flask-app.png)
+
     <br/>
 4. Switch back to the **Web Browser** and click **Refresh**. The web page will **not respond** as the debugger has stopped at the breakpoint you set.
 5. Switch back to **Visual Studio Code**. You will see that the code has stopped running at the **breakpoint**.
     <br/>
+
     ![](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-open-stop-at-breakpoint.png)
 
 ## Debugger Toolbar Options
@@ -314,9 +320,14 @@ The debugging toolbar (shown below) will appear in Visual Studio Code. It has th
 
     If the Variable Window is not visible click **Debug** in the activity bar.
 
-    ![](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-activity-bar-debug.png)
     <br/>
+
+    ![](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-activity-bar-debug.png)
+
+    <br/>
+
     ![Variable window](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-stepping-code-variable-window.png)
+
     <br/>
 4. Try to change the **temperature** variable to **50**. Hint, **right mouse** click on the temperature variable and select **Set Value**, or double click on a **temperature** variable.
 5. Press **F5** to resume the Flask App, then **switch back to your web browser** and you will see the temperature, humidity, and pressure Sensor data displayed on the web page.
@@ -347,14 +358,18 @@ Try setting a **conditional** breakpoint
 2. Ensure the **app<span>.py** file open.
 3. **Right mouse click** directly in the margin to the **left** of the line number **22**.
     <br/>
+
     ![](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-open-add-conditional-breakpoint.png)
+
     <br/>
 4. Select **Add Conditional Breakpoint...**
 5. Set the condition to **temperature > 25**, then press **ENTER**
     <br/>
+
     ![Conditional BreakPoint in Visual Studio Code](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-conditional-breakpoint.png)
 
     The breakpoint appears as a red dot with an equals sign in the middle
+
     <br/>
 6. Switch back to the **Web Browser** and click **Refresh**. The web page will **not respond** as the debugger has stopped at the breakpoint you set.
 7. **Switch** back to **Visual Studio Code** and you will see the debugger has stopped at the **conditional breakpoint**.
@@ -370,7 +385,9 @@ The Visual Studio Code **Debug Console** will give you access to the [Python REP
 3. The code will have stopped at the conditional breakpoint you previously set.
 4. Select the Visual Studio **Debug Console** window.
     <br/>
+
     ![visual studio debug console](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-debug-console-print.png)
+
     <br/>
 5. Type the following Python code into the Input Prompt **>**
 
@@ -409,7 +426,9 @@ Things to try:
 
 1. Switch to Debug view in Visual Studio Code (using the left-side activity bar).
     <br/>
+
     ![open launch json file](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-open-launch-json.png)
+
     <br/>
 1. Click the **Settings** button which will open the **launch.json** file.
 1. The **launch.json** file defines how the Flask app will start, and what [Flask Command Line](https://flask.palletsprojects.com/en/1.0.x/cli/) parameters to pass at startup.
@@ -422,6 +441,7 @@ From Visual Studio Code, **Close Remote Connection**.
 
 1. Click the **Remote SSH** button in the **bottom left-hand corner** and select **Close Remote Connection** from the dropdown list.
     <br/>
+
     ![close Remote SSH](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-close-ssh-session.png)
 
 ## Finished
