@@ -6,7 +6,11 @@ Follow me on Twitter [@dglover](https://twitter.com/dglover)
 
 ## PDF Lab Guide
 
-You may find it easier to download and follow the PDF version of the [Debugging Raspberry Pi Internet of Things Flask App](https://github.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/blob/master/README.pdf) hands-on lab guide.
+You may find it easier to download and follow the PDF version of the **Debugging Raspberry Pi Internet of Things Flask App** PyLab.
+
+- [English](https://github.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/blob/master/README.pdf) hands-on lab guide.
+- [简体中文 Simplified Chinese]
+(https://github.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/blob/master/README-Simplified-Chinese.pdf)
 
 ## PyLab Content
 
