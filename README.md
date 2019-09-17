@@ -16,14 +16,6 @@ You may find it easier to download and follow the PDF version of the **Debugging
 - [PyLab 1: Raspberry Pi, Debugging a Python Internet of Things Application](https://gloveboxes.github.io/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/)
 - [PyLab 2: Raspberry Pi, Azure IoT Central, and Docker Container Debugging](https://gloveboxes.github.io/PyLab-2-Python-Azure-IoT-Central-and-Docker-Container-Debugging/)
 
-## PyLab Set Up
-
-- [Single-User Set Up](https://github.com/gloveboxes/PyLab-0-Raspberry-Pi-Set-Up/tree/master/setup-singleuser/README.md)
-
-- [Multi-User Set Up](https://github.com/gloveboxes/PyLab-0-Raspberry-Pi-Set-Up/tree/master/setup-multiuser/README.md)
-
-![Raspberry Pi with SSD](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/rpi4-ssd.png)
-
 |Author|[Dave Glover](https://developer.microsoft.com/en-us/advocates/dave-glover?WT.mc_id=pycon-blog-dglover), Microsoft Cloud Developer Advocate |
 |:--- |:--- |
 |Platforms | Linux, macOS, Windows, Raspbian Buster|
@@ -32,6 +24,14 @@ You may find it easier to download and follow the PDF version of the **Debugging
 |Hardware | [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/), [Raspberry Pi Sense HAT](https://www.raspberrypi.org/products/sense-hat/)|
 |Language| Python|
 |Date|September, 2019|
+
+## PyLab Set Up
+
+- [Single-User Set Up](https://github.com/gloveboxes/PyLab-0-Raspberry-Pi-Set-Up/tree/master/setup-singleuser/README.md)
+
+- [Multi-User Set Up](https://github.com/gloveboxes/PyLab-0-Raspberry-Pi-Set-Up/tree/master/setup-multiuser/README.md)
+
+![Raspberry Pi with SSD](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/rpi4-ssd.png)
 
 ## Introduction
 
