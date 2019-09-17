@@ -19,6 +19,9 @@ You may find it easier to download and follow the PDF version of the **Debugging
 ## PyLab Set Up
 
 - [Multi-User Set Up](https://github.com/gloveboxes/PyLab-0-Raspberry-Pi-Set-Up/blob/master/Lab-setup-multiuser/README.md)
+
+![](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/RPi4-SSD.png)
+
 - [Single-User Set Up](https://github.com/gloveboxes/PyLab-0-Raspberry-Pi-Set-Up/blob/master/Lab-setup-singleuser/README.md)
 
 |Author|[Dave Glover](https://developer.microsoft.com/en-us/advocates/dave-glover?WT.mc_id=pycon-blog-dglover), Microsoft Cloud Developer Advocate |
