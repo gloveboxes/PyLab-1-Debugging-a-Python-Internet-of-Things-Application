@@ -18,11 +18,11 @@ You may find it easier to download and follow the PDF version of the **Debugging
 
 ## PyLab Set Up
 
+- [Single-User Set Up](https://github.com/gloveboxes/PyLab-0-Raspberry-Pi-Set-Up/tree/master/setup-singleuser/README.md)
+
 - [Multi-User Set Up](https://github.com/gloveboxes/PyLab-0-Raspberry-Pi-Set-Up/tree/master/setup-multiuser/README.md)
 
 ![Raspberry Pi with SSD](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/rpi4-ssd.png)
-
-- [Single-User Set Up](https://github.com/gloveboxes/PyLab-0-Raspberry-Pi-Set-Up/tree/master/setup-singleuser/README.md)
 
 |Author|[Dave Glover](https://developer.microsoft.com/en-us/advocates/dave-glover?WT.mc_id=pycon-blog-dglover), Microsoft Cloud Developer Advocate |
 |:--- |:--- |
