@@ -4,6 +4,15 @@ Follow me on Twitter [@dglover](https://twitter.com/dglover)
 
 ![banner](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/python-loves-vscode-raspberrypi.jpg)
 
+|Author|[Dave Glover](https://developer.microsoft.com/en-us/advocates/dave-glover?WT.mc_id=pycon-blog-dglover), Microsoft Cloud Developer Advocate |
+|:--- |:--- |
+|Platforms | Linux, macOS, Windows, Raspbian Buster|
+|Services | [Azure IoT Central](https://docs.microsoft.com/en-us/azure/iot-central/?WT.mc_id=pycon-blog-dglover) |
+|Tools| [Visual Studio Code](https://code.visualstudio.com?WT.mc_id=pycon-blog-dglover)|
+|Hardware | [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/), [Raspberry Pi Sense HAT](https://www.raspberrypi.org/products/sense-hat/)|
+|Language| Python|
+|Date|September, 2019|
+
 ## PDF Lab Guide
 
 You may find it easier to download and follow the PDF version of the **Debugging Raspberry Pi Internet of Things Flask App** PyLab.
@@ -15,15 +24,6 @@ You may find it easier to download and follow the PDF version of the **Debugging
 
 - [PyLab 1: Raspberry Pi, Debugging a Python Internet of Things Application](https://gloveboxes.github.io/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/)
 - [PyLab 2: Raspberry Pi, Azure IoT Central, and Docker Container Debugging](https://gloveboxes.github.io/PyLab-2-Python-Azure-IoT-Central-and-Docker-Container-Debugging/)
-
-|Author|[Dave Glover](https://developer.microsoft.com/en-us/advocates/dave-glover?WT.mc_id=pycon-blog-dglover), Microsoft Cloud Developer Advocate |
-|:--- |:--- |
-|Platforms | Linux, macOS, Windows, Raspbian Buster|
-|Services | [Azure IoT Central](https://docs.microsoft.com/en-us/azure/iot-central/?WT.mc_id=pycon-blog-dglover) |
-|Tools| [Visual Studio Code](https://code.visualstudio.com?WT.mc_id=pycon-blog-dglover)|
-|Hardware | [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/), [Raspberry Pi Sense HAT](https://www.raspberrypi.org/products/sense-hat/)|
-|Language| Python|
-|Date|September, 2019|
 
 ## PyLab Set Up
 
