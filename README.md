@@ -25,19 +25,21 @@ You may find it easier to download and follow the PDF version of the **Debugging
 - [PyLab 1: Raspberry Pi, Debugging a Python Internet of Things Application](https://gloveboxes.github.io/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/)
 - [PyLab 2: Raspberry Pi, Azure IoT Central, and Docker Container Debugging](https://gloveboxes.github.io/PyLab-2-Python-Azure-IoT-Central-and-Docker-Container-Debugging/)
 
+## Introduction
+
+In this hands-on lab, you will learn how to create and debug a Python web application on a Raspberry Pi with [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=pycon-blog-dglover) and the [Remote SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh&WT.mc_id=pycon-blog-dglover) extension. The web app will read the temperature, humidity, and air pressure telemetry from a sensor connected to the Raspberry Pi.
+
 ## PyLab Set Up
 
 - [Single-User Set Up](https://github.com/gloveboxes/PyLab-0-Raspberry-Pi-Set-Up/tree/master/setup-singleuser/README.md)
+
+![Raspberry Pi with SSD](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/rpi3aplus.png)
 
 - [Multi-User Set Up](https://github.com/gloveboxes/PyLab-0-Raspberry-Pi-Set-Up/tree/master/setup-multiuser/README.md)
 
 ![Raspberry Pi with SSD](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/rpi4-ssd.png)
 
-## Introduction
-
-In this hands-on lab, you will learn how to create and debug a Python web application on a Raspberry Pi with [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=pycon-blog-dglover) and the [Remote SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh&WT.mc_id=pycon-blog-dglover) extension. The web app will read the temperature, humidity, and air pressure telemetry from a sensor connected to the Raspberry Pi.
-
-![Sense HAT for Raspberry Pi](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/rpi4-pi-sense-hat.jpg)
+<!-- ![Sense HAT for Raspberry Pi](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/rpi4-pi-sense-hat.jpg) -->
 
 ## Software Installation
 
