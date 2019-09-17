@@ -20,7 +20,7 @@ You may find it easier to download and follow the PDF version of the **Debugging
 
 - [Multi-User Set Up](https://github.com/gloveboxes/PyLab-0-Raspberry-Pi-Set-Up/blob/master/Lab-setup-multiuser/README.md)
 
-![](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/RPi4-SSD.png)
+![](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/rpi4-with-ssd.png)
 
 - [Single-User Set Up](https://github.com/gloveboxes/PyLab-0-Raspberry-Pi-Set-Up/blob/master/Lab-setup-singleuser/README.md)
 
