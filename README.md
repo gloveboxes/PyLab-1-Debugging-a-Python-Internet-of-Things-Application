@@ -41,7 +41,7 @@ This automated set up installs the required libraies, Docker, and builds the lab
 
 The Multi-user set up allows up to 20 users/students per Raspberry Pi 4 4GB. A USB3 SSD drive is required to support the disk IO requirements for this number of users. The installation script installs the lab content, and Docker. Builds the lab Docker Images, and sets up all the users.
 
-![Raspberry Pi with SSD](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/rpi4-ssd.png)
+![Raspberry Pi with SSD](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/pylab.jpg)
 
 <!-- ![Sense HAT for Raspberry Pi](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/rpi4-pi-sense-hat.jpg) -->
 
@@ -285,12 +285,7 @@ def show_telemetry():
 ## Start the Python Flask App
 
 1. Press **F5** to start the Python Flask app.
-2. From the Visual Studio Code **Terminal Window**, click the **running on http://...** web link.
-    <br/>
 
-    ![Open web browser from VS Code](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/vs-code-start-web-browser.png)
-
-    <br/>
 3. This will launch your desktop Web Browser.
 
     -  The Flask app will read the temperature, air pressure, humidity from the **sensor** attached the Raspberry Pi and display the results in your web browser.
