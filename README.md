@@ -4,11 +4,11 @@ Follow me on Twitter [@dglover](https://twitter.com/dglover)
 
 ![banner](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/python-loves-vscode-raspberrypi.jpg)
 
-|Author|[Dave Glover](https://developer.microsoft.com/en-us/advocates/dave-glover?WT.mc_id=pycon-blog-dglover), Microsoft Cloud Developer Advocate |
+|Author|[Dave Glover](https://developer.microsoft.com/advocates/dave-glover?WT.mc_id=iot-0000-dglover), Microsoft Cloud Developer Advocate |
 |:--- |:--- |
 |Platforms | Linux, macOS, Windows, Raspbian Buster|
-|Services | [Azure IoT Central](https://docs.microsoft.com/en-us/azure/iot-central/?WT.mc_id=pycon-blog-dglover) |
-|Tools| [Visual Studio Code](https://code.visualstudio.com?WT.mc_id=pycon-blog-dglover)|
+|Services | [Azure IoT Central](https://docs.microsoft.com/azure/iot-central/?WT.mc_id=iot-0000-dglover) |
+|Tools| [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=iot-0000-dglover)|
 |Hardware | [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/), [Raspberry Pi Sense HAT](https://www.raspberrypi.org/products/sense-hat/)|
 |Language| Python|
 |Date|September, 2019|
@@ -27,7 +27,7 @@ You may find it easier to download and follow the PDF version of the **Debugging
 
 ## Introduction
 
-In this hands-on lab, you will learn how to create and debug a Python web application on a Raspberry Pi with [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=pycon-blog-dglover) and the [Remote SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh&WT.mc_id=pycon-blog-dglover) extension. The web app will read the temperature, humidity, and air pressure telemetry from a sensor connected to the Raspberry Pi.
+In this hands-on lab, you will learn how to create and debug a Python web application on a Raspberry Pi with [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=iot-0000-dglover) and the [Remote SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh&WT.mc_id=iot-0000-dglover) extension. The web app will read the temperature, humidity, and air pressure telemetry from a sensor connected to the Raspberry Pi.
 
 ## PyLab Set Up
 
@@ -53,7 +53,7 @@ This hands-on lab uses Visual Studio Code. Visual Studio Code is a code editor a
 
 ### Install Visual Studio Code
 
-1. **Install [Visual Studio Code](https://code.visualstudio.com/Download?WT.mc_id=pycon-blog-dglover)**
+1. **Install [Visual Studio Code](https://code.visualstudio.com/Download?WT.mc_id=iot-0000-dglover)**
 
 #### Visual Studio Code Extensions
 
@@ -65,7 +65,7 @@ You can search and install extensions from within Visual Studio Code. Open the E
 
 ![Extensions view icon](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/extensions-view-icon.png)
 
-This will show you a list of the most popular VS Code extensions on the [VS Code Marketplace](https://marketplace.visualstudio.com/VSCode?WT.mc_id=pycon-blog-dglover).
+This will show you a list of the most popular VS Code extensions on the [VS Code Marketplace](https://marketplace.visualstudio.com/VSCode?WT.mc_id=iot-0000-dglover).
 
 <!-- ![popular extensions](https://raw.githubusercontent.com/gloveboxes/PyLab-1-Debugging-a-Python-Internet-of-Things-Application/master/resources/extensions-popular.png) -->
 
@@ -75,8 +75,8 @@ This will show you a list of the most popular VS Code extensions on the [VS Code
 
 Search and install the following two Visual Studio Code Extensions published by Microsoft.
 
-1. **[Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=pycon-blog-dglover)**
-2. **[Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh&WT.mc_id=pycon-blog-dglover)**
+1. **[Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=iot-0000-dglover)**
+2. **[Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh&WT.mc_id=iot-0000-dglover)**
 
 <!-- Install Visual Studio Code Extensions:
 
@@ -217,7 +217,7 @@ Launch Visual Studio Code Quick Open (Ctrl+P), paste the following command, and 
 ext install ms-python.python
 ```
 
-See the [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=pycon-blog-dglover) page for information about using the extension. -->
+See the [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=iot-0000-dglover) page for information about using the extension. -->
 
 ## Open PyLab 1 Python Debug Project
 
@@ -429,9 +429,9 @@ The Visual Studio Code **Debug Console** will give you access to the [Python REP
 
 Things to try:
 
-1. Review the [Visual Studio Code Python Tutorial](https://code.visualstudio.com/docs/python/python-tutorial?WT.mc_id=pycon-blog-dglover)
+1. Review the [Visual Studio Code Python Tutorial](https://code.visualstudio.com/docs/python/python-tutorial?WT.mc_id=iot-0000-dglover)
 1. Review the [Python Flask tutorial](https://vscode-westeu.azurewebsites.net/docs/python/tutorial-flask)
-1. Review the [Visual Studio Code Debugging Tutorial](https://code.visualstudio.com/docs/editor/debugging?WT.mc_id=pycon-blog-dglover)
+1. Review the [Visual Studio Code Debugging Tutorial](https://code.visualstudio.com/docs/editor/debugging?WT.mc_id=iot-0000-dglover)
 
 ## Review the Debug **Launch** Settings
 
@@ -461,12 +461,12 @@ From Visual Studio Code, **Close Remote Connection**.
 
 ## References
 
-- [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=pycon-blog-dglover)
+- [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=iot-0000-dglover)
 - [Python](https://www.python.org/)
 - [Raspberry Pi](https://www.raspberrypi.org/)
 - [Flask](https://www.fullstackpython.com/flask.html)
 
 ## Trouble Shooting SSH Client Installation
 
-- [Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh?WT.mc_id=pycon-blog-dglover)
-- [Installing a supported SSH client](https://code.visualstudio.com/docs/remote/troubleshooting#_installing-a-supported-ssh-client?WT.mc_id=pycon-blog-dglover)
+- [Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh?WT.mc_id=iot-0000-dglover)
+- [Installing a supported SSH client](https://code.visualstudio.com/docs/remote/troubleshooting?WT.mc_id=iot-0000-dglover#_installing-a-supported-ssh-client?WT.mc_id=pycon-blog-dglover)
